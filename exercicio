@@ -1,0 +1,14 @@
+const alunos = [
+    { nome: 'Gabriel', nota: 5 },
+    { nome: 'Manuela', nota: 7 },
+    { nome: 'Roberto', nota: 9 },
+    { nome: 'Camila', nota: 4 },
+    { nome: 'Felipe', nota: 8 },
+];
+
+const notasAlunos = (aprovados) => {
+    return aprovados.filter((object) => object.nota > 6);
+};
+
+const alunosAprovados = notasAlunos(alunos);
+console.log(alunosAprovados);
