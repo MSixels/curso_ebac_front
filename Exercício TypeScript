@@ -1,0 +1,16 @@
+//Exercicio 1
+  function multiplicador(valor1: number, valor2: number): number {
+    return valor1 * valor2;
+  }
+  
+  const resultado = multiplicador(2, 15);
+  console.log(resultado);
+
+  //Exercicio 2
+  function saudacao(nome: string): string {
+    return "Olá " + nome;
+  }
+  
+  const nome = "Marcelo";
+  const dizOla = saudacao(nome);
+  console.log(dizOla);
